@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T10:37:01.949Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.18" etag="nkfdMgLh9lEgE2F0rd9D" type="github"><diagram name="Page-1" id="uP8VPKp7rkMWub5TllTs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-08T11:14:44.660Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="l2f3xTT5JZLhHOh7gKzo" version="20.8.18" type="github">
+  <diagram name="Page-1" id="uP8VPKp7rkMWub5TllTs">
+    <mxGraphModel dx="1257" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Remote&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="165" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Local&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="165" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="vEO4fT-VZmLlDIX0v4wr-2" target="vEO4fT-VZmLlDIX0v4wr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-2" value="RTCPeerConnection" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-3" value="RTCPeerConnection" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="210" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="vEO4fT-VZmLlDIX0v4wr-6" target="vEO4fT-VZmLlDIX0v4wr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-6" value="createOffer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-8" value="setLocalDescription" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vEO4fT-VZmLlDIX0v4wr-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Signalling Server&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="165" width="310" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
